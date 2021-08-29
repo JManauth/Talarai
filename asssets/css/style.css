@@ -114,7 +114,7 @@ header {
   text-decoration: none;
 }
 .cards{
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
   }
 .card{
@@ -180,6 +180,23 @@ box-shadow: 10px 10px 5px grey;
   border-radius: 50px;
 
 }
+.service-card{
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  z-index: 0;
+  box-shadow: 10px 10px 5px grey;
+}
+button{
+  height: 50px;
+  width: 150px;
+  background-color:rgba(77, 0, 100, 0.932);;
+  color:white;
+  margin: 20px;
+  border-radius: 25px;
+}
+
 
  footer{
   background-color: rgb(22, 0, 82);
